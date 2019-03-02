@@ -13,17 +13,20 @@
 
     <v-content>
       <HelloWorld/>
+      <Practice/>
     </v-content>
   </v-app>
 </template>
 
 <script lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import Practice from "./components/Practice.vue";
 import { Vue, Component } from "vue-property-decorator";
 
 @Component({
   components: {
-    HelloWorld
+    HelloWorld,
+    Practice
   }
 })
 export default class App extends Vue {}
